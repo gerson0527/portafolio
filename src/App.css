@@ -235,6 +235,42 @@ body{
   font-weight: 400;
   text-align: left;
 }
+/*CONTACTANOS*/
+.contactanos{
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.title__contactanos{
+  text-align: center;
+  width: 70%;
+}
+.title__contactanos h2{
+  font-size: 20px;
+  color: var(--color--primary);
+}
+.buttom__contactanos{
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buttom__contactanos a{
+  color: var(--color--primary);
+  background: linear-gradient(90deg, #e52165, #a3125a);
+  border-radius: 10px 20px 10px 20px; 
+  width: 220px;
+  height: 35px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:20px;
+  text-transform: capitalize;
+}
 /* FOOTER */
 .footer{
   text-align: center;

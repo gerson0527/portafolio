@@ -1,15 +1,24 @@
 import "./App.css";
-import { FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa";
+import {
+  FaLinkedin,
+  FaGithub,
+  FaEnvelope,
+  FaDownload,
+  FaReact,
+  FaNodeJs,
+  FaHtml5,
+  FaCss3,
+} from "react-icons/fa";
+import { VscArrowSmallDown } from "react-icons/vsc";
 import ecommerImage from "./assets/ecommer.jpg";
 import Pokemon from "./assets/pokemon.jpg";
 import Rick from "./assets/rick.jpg";
 import Frases from "./assets/frases.png";
 import Clima from "./assets/clima.webp";
-import { VscArrowSmallDown } from "react-icons/vsc";
-import { FaReact, FaNodeJs, FaHtml5, FaCss3 } from "react-icons/fa";
 import Navbar from "./Components/Navbar/Navbar";
 import Card from "./Components/Card/Card";
 import Footer from "./Components/Footer/Footer";
+
 function App() {
   const iconosTecnologias = {
     react: <FaReact className="iconstegnologi" />,
@@ -130,6 +139,20 @@ function App() {
               github="ver codigo"
               vivo="demo"
             />
+          </div>
+          <div className="contactanos">
+            <div className="title__contactanos">
+              <h2>
+                Agradezco tu interés en conocer más sobre mí, por ello, te
+                proporciono mi CV para que puedas explorar más acerca de mi
+                trayectoria y habilidades..
+              </h2>
+              <div className="buttom__contactanos">
+                <a href="">
+                  descargar mi cv <FaDownload />
+                </a>
+              </div>
+            </div>
           </div>
           <div className="footer">
             <Footer />
