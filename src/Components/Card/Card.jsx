@@ -17,10 +17,10 @@ function Card(props) {
         </div>
         <div className="card__rigth___buttom">
           <div className="buttom__git">
-            <a href="">{props.github}</a>
+            <a href={props.links}>{props.github}</a>
           </div>
           <div className="demo">
-            <a href="">{props.vivo}</a>
+            <a href={props.demo}>{props.vivo}</a>
           </div>
         </div>
       </div>

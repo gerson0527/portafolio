@@ -1,3 +1,4 @@
+import React from "react";
 import "./App.css";
 import {
   FaLinkedin,
@@ -40,7 +41,7 @@ function App() {
         </div>
         <div className="linea__header"></div>
         <div className="parrafo__header">
-          <p>cualidades</p>
+          <p>¡Aprende y diviértete con mis proyectos!</p>
         </div>
         <div className="icons___header">
           <a
@@ -51,7 +52,7 @@ function App() {
             <FaLinkedin />
           </a>
           <a
-            href="https://github.com/"
+            href="https://github.com/gerson0527"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -98,6 +99,8 @@ function App() {
               )}
               github="ver codigo"
               vivo="demo"
+              links="https://github.com/gerson0527/carrito-React"
+              demo="https://dapper-marzipan-d7ed40.netlify.app/"
             />
             <Card
               imageUrl={Pokemon}
@@ -108,6 +111,8 @@ function App() {
               )}
               github="ver codigo"
               vivo="demo"
+              links="https://github.com/gerson0527/Pokedex"
+              demo="https://jazzy-eclair-adbdf1.netlify.app/"
             />
             <Card
               imageUrl={Rick}
@@ -118,6 +123,8 @@ function App() {
               )}
               github="ver codigo"
               vivo="demo"
+              links="https://github.com/gerson0527/RickyMorty"
+              demo="https://eloquent-centaur-4a6140.netlify.app/"
             />
             <Card
               imageUrl={Clima}
@@ -128,6 +135,8 @@ function App() {
               )}
               github="ver codigo"
               vivo="demo"
+              links="https://github.com/gerson0527/clima"
+              demo="https://jazzy-scone-654f8c.netlify.app/"
             />
             <Card
               imageUrl={Frases}
@@ -138,6 +147,8 @@ function App() {
               )}
               github="ver codigo"
               vivo="demo"
+              links="https://github.com/gerson0527/frases-aleatorias-con-react"
+              demo="https://jazzy-scone-654f8c.netlify.app/"
             />
           </div>
           <div className="contactanos">

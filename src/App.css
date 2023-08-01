@@ -150,13 +150,12 @@ body{
 }
 /* CARDS */
 .projects__card{
-  margin: 50px 120px 0px 50px;
+  margin: 30px;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2 , 1fr);
   gap: 30px;
 }
 .card{
-  width:600px;
   height: 400px;
   background-color: #e1eab5;
   display: flex;
@@ -197,7 +196,7 @@ body{
   justify-content: center;
   align-items: center;
   gap: 40px;
-  width: 100%;
+  width: 90%;
   cursor: pointer;
 }
 .card__rigth___buttom a{
@@ -224,6 +223,7 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 .card__rigth__text h2{
   margin-bottom: 20px;
@@ -263,7 +263,7 @@ body{
   background: linear-gradient(90deg, #e52165, #a3125a);
   border-radius: 10px 20px 10px 20px; 
   width: 220px;
-  height: 35px;
+  height: 40px;
   text-decoration: none;
   display: flex;
   justify-content: center;
@@ -282,4 +282,59 @@ body{
   align-items: center;
   margin-top: 90px;
   background-color: #ff8502;
+}
+@media screen and (max-width: 768px) {
+  /* Agrega aquí tus estilos específicos para tablet */
+  .navabr__rigth{
+    display: none;
+  }
+  .texto__header h1{
+    font-size: 35px;
+    text-align: center;
+  }
+  .title__contactanos{
+    width: 100%;
+  }
+  .projects__card {
+    margin: 0;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(1 , 1fr);
+    gap: 30px;
+}
+
+}
+@media screen and (max-width: 480px) {
+  .texto__header h1{
+    text-align: center;
+  }
+  .texto__header h1{
+    font-size: 23px;
+  }
+  .projects__tile h3{
+    width: 90%;
+  }
+  .about__parrafo{
+    line-height: 28px;
+  }
+  .navabr__rigth{
+    display: none;
+  }
+  .card__rigth__text h3{
+    font-size: 14px;
+  }
+  .card{
+    display: block;
+    height: 500px;
+    margin-top: 120px;
+  }
+  .card__left img{
+    width: 100%;
+    height: auto;
+    margin-top: -120px;
+  }
+  .card__left{
+    padding-left: 0;
+    height: 30%;
+  }
 }
